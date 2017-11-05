@@ -31,6 +31,33 @@
 		F2DFC8431FAF17CD00BB4491 /* HelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8421FAF17CD00BB4491 /* HelpersTests.swift */; };
 		F2DFC8451FAF17CD00BB4491 /* Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFC8371FAF17CD00BB4491 /* Helpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2DFC84F1FAF17FF00BB4491 /* Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFC84D1FAF17FA00BB4491 /* Helpers.h */; };
+		F2DFC8691FAF8E5600BB4491 /* Helpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8351FAF17CD00BB4491 /* Helpers.framework */; };
+		F2DFC86A1FAF8E5600BB4491 /* Helpers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8351FAF17CD00BB4491 /* Helpers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2DFC86E1FAF8E5B00BB4491 /* Helpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8351FAF17CD00BB4491 /* Helpers.framework */; };
+		F2DFC86F1FAF8E6100BB4491 /* Helpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8351FAF17CD00BB4491 /* Helpers.framework */; };
+		F2DFC8701FAF8E6100BB4491 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7B61FAF15DA00BB4491 /* Model.framework */; };
+		F2DFC8711FAF8E6700BB4491 /* Helpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8351FAF17CD00BB4491 /* Helpers.framework */; };
+		F2DFC8721FAF8E6700BB4491 /* ViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7DA1FAF160A00BB4491 /* ViewModel.framework */; };
+		F2DFC8751FAF8E8700BB4491 /* SwinjectStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8731FAF8E8700BB4491 /* SwinjectStoryboard.framework */; };
+		F2DFC8761FAF8E8700BB4491 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8741FAF8E8700BB4491 /* Swinject.framework */; };
+		F2DFC8881FAF8EF900BB4491 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8771FAF8EF900BB4491 /* FirebaseInstanceID.framework */; };
+		F2DFC8891FAF8EF900BB4491 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8781FAF8EF900BB4491 /* CocoaLumberjack.framework */; };
+		F2DFC88A1FAF8EF900BB4491 /* ReactiveEureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8791FAF8EF900BB4491 /* ReactiveEureka.framework */; };
+		F2DFC88B1FAF8EF900BB4491 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87A1FAF8EF900BB4491 /* Result.framework */; };
+		F2DFC88C1FAF8EF900BB4491 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87B1FAF8EF900BB4491 /* FirebaseCore.framework */; };
+		F2DFC88D1FAF8EF900BB4491 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87C1FAF8EF900BB4491 /* nanopb.framework */; };
+		F2DFC88E1FAF8EF900BB4491 /* PluggableApplicationDelegate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87D1FAF8EF900BB4491 /* PluggableApplicationDelegate.framework */; };
+		F2DFC88F1FAF8EF900BB4491 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87E1FAF8EF900BB4491 /* ReactiveSwift.framework */; };
+		F2DFC8901FAF8EF900BB4491 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87F1FAF8EF900BB4491 /* CocoaLumberjackSwift.framework */; };
+		F2DFC8911FAF8EF900BB4491 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8801FAF8EF900BB4491 /* Firebase.framework */; };
+		F2DFC8921FAF8EF900BB4491 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8811FAF8EF900BB4491 /* FirebaseCoreDiagnostics.framework */; };
+		F2DFC8931FAF8EF900BB4491 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8821FAF8EF900BB4491 /* FirebaseAnalytics.framework */; };
+		F2DFC8941FAF8EF900BB4491 /* FirebaseCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8831FAF8EF900BB4491 /* FirebaseCrash.framework */; };
+		F2DFC8951FAF8EF900BB4491 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8841FAF8EF900BB4491 /* Eureka.framework */; };
+		F2DFC8961FAF8EF900BB4491 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8851FAF8EF900BB4491 /* ReactiveCocoa.framework */; };
+		F2DFC8971FAF8EF900BB4491 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8861FAF8EF900BB4491 /* FirebaseNanoPB.framework */; };
+		F2DFC8981FAF8EF900BB4491 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8871FAF8EF900BB4491 /* GoogleToolboxForMac.framework */; };
+		F2DFC8991FAF8F0A00BB4491 /* PluggableApplicationDelegate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87D1FAF8EF900BB4491 /* PluggableApplicationDelegate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +131,34 @@
 			remoteGlobalIDString = F2DFC8341FAF17CD00BB4491;
 			remoteInfo = Helpers;
 		};
+		F2DFC86B1FAF8E5600BB4491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DFC8341FAF17CD00BB4491;
+			remoteInfo = Helpers;
+		};
+		F2DFC89C1FAF903500BB4491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DFC8341FAF17CD00BB4491;
+			remoteInfo = Helpers;
+		};
+		F2DFC89E1FAF903900BB4491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DFC8341FAF17CD00BB4491;
+			remoteInfo = Helpers;
+		};
+		F2DFC8A01FAF903D00BB4491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DFC8341FAF17CD00BB4491;
+			remoteInfo = Helpers;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -113,6 +168,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				F2DFC86A1FAF8E5600BB4491 /* Helpers.framework in Embed Frameworks */,
 				F2DFC7CC1FAF15DB00BB4491 /* Model.framework in Embed Frameworks */,
 				F2DFC8121FAF162100BB4491 /* View.framework in Embed Frameworks */,
 				F2DFC7F01FAF160B00BB4491 /* ViewModel.framework in Embed Frameworks */,
@@ -156,6 +212,25 @@
 		F2DFC8441FAF17CD00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2DFC84D1FAF17FA00BB4491 /* Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
 		F2DFC84E1FAF17FA00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DFC8731FAF8E8700BB4491 /* SwinjectStoryboard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwinjectStoryboard.framework; path = Carthage/Build/iOS/SwinjectStoryboard.framework; sourceTree = "<group>"; };
+		F2DFC8741FAF8E8700BB4491 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
+		F2DFC8771FAF8EF900BB4491 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Carthage/Build/iOS/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		F2DFC8781FAF8EF900BB4491 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		F2DFC8791FAF8EF900BB4491 /* ReactiveEureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveEureka.framework; path = Carthage/Build/iOS/ReactiveEureka.framework; sourceTree = "<group>"; };
+		F2DFC87A1FAF8EF900BB4491 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		F2DFC87B1FAF8EF900BB4491 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Carthage/Build/iOS/FirebaseCore.framework; sourceTree = "<group>"; };
+		F2DFC87C1FAF8EF900BB4491 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = Carthage/Build/iOS/nanopb.framework; sourceTree = "<group>"; };
+		F2DFC87D1FAF8EF900BB4491 /* PluggableApplicationDelegate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PluggableApplicationDelegate.framework; path = Carthage/Build/iOS/PluggableApplicationDelegate.framework; sourceTree = "<group>"; };
+		F2DFC87E1FAF8EF900BB4491 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		F2DFC87F1FAF8EF900BB4491 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = Carthage/Build/iOS/CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
+		F2DFC8801FAF8EF900BB4491 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = Carthage/Build/iOS/Firebase.framework; sourceTree = "<group>"; };
+		F2DFC8811FAF8EF900BB4491 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Carthage/Build/iOS/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		F2DFC8821FAF8EF900BB4491 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Carthage/Build/iOS/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		F2DFC8831FAF8EF900BB4491 /* FirebaseCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCrash.framework; path = Carthage/Build/iOS/FirebaseCrash.framework; sourceTree = "<group>"; };
+		F2DFC8841FAF8EF900BB4491 /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eureka.framework; path = Carthage/Build/iOS/Eureka.framework; sourceTree = "<group>"; };
+		F2DFC8851FAF8EF900BB4491 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		F2DFC8861FAF8EF900BB4491 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Carthage/Build/iOS/FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		F2DFC8871FAF8EF900BB4491 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = Carthage/Build/iOS/GoogleToolboxForMac.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +238,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2DFC8991FAF8F0A00BB4491 /* PluggableApplicationDelegate.framework in Frameworks */,
+				F2DFC8751FAF8E8700BB4491 /* SwinjectStoryboard.framework in Frameworks */,
+				F2DFC8761FAF8E8700BB4491 /* Swinject.framework in Frameworks */,
+				F2DFC8691FAF8E5600BB4491 /* Helpers.framework in Frameworks */,
 				F2DFC7CB1FAF15DB00BB4491 /* Model.framework in Frameworks */,
 				F2DFC8111FAF162100BB4491 /* View.framework in Frameworks */,
 				F2DFC7EF1FAF160B00BB4491 /* ViewModel.framework in Frameworks */,
@@ -173,6 +252,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2DFC86E1FAF8E5B00BB4491 /* Helpers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +268,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2DFC86F1FAF8E6100BB4491 /* Helpers.framework in Frameworks */,
+				F2DFC8701FAF8E6100BB4491 /* Model.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +285,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2DFC8711FAF8E6700BB4491 /* Helpers.framework in Frameworks */,
+				F2DFC8721FAF8E6700BB4491 /* ViewModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +302,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2DFC8881FAF8EF900BB4491 /* FirebaseInstanceID.framework in Frameworks */,
+				F2DFC8891FAF8EF900BB4491 /* CocoaLumberjack.framework in Frameworks */,
+				F2DFC88A1FAF8EF900BB4491 /* ReactiveEureka.framework in Frameworks */,
+				F2DFC88B1FAF8EF900BB4491 /* Result.framework in Frameworks */,
+				F2DFC88C1FAF8EF900BB4491 /* FirebaseCore.framework in Frameworks */,
+				F2DFC88D1FAF8EF900BB4491 /* nanopb.framework in Frameworks */,
+				F2DFC88E1FAF8EF900BB4491 /* PluggableApplicationDelegate.framework in Frameworks */,
+				F2DFC88F1FAF8EF900BB4491 /* ReactiveSwift.framework in Frameworks */,
+				F2DFC8901FAF8EF900BB4491 /* CocoaLumberjackSwift.framework in Frameworks */,
+				F2DFC8911FAF8EF900BB4491 /* Firebase.framework in Frameworks */,
+				F2DFC8921FAF8EF900BB4491 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				F2DFC8931FAF8EF900BB4491 /* FirebaseAnalytics.framework in Frameworks */,
+				F2DFC8941FAF8EF900BB4491 /* FirebaseCrash.framework in Frameworks */,
+				F2DFC8951FAF8EF900BB4491 /* Eureka.framework in Frameworks */,
+				F2DFC8961FAF8EF900BB4491 /* ReactiveCocoa.framework in Frameworks */,
+				F2DFC8971FAF8EF900BB4491 /* FirebaseNanoPB.framework in Frameworks */,
+				F2DFC8981FAF8EF900BB4491 /* GoogleToolboxForMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +339,7 @@
 				F2DFC7D41FAF15EA00BB4491 /* Tests */,
 				F2DFC7981FAF12BF00BB4491 /* MVVMTemplate */,
 				F2DFC7971FAF12BF00BB4491 /* Products */,
+				F2DFC86D1FAF8E5B00BB4491 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -439,6 +541,32 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		F2DFC86D1FAF8E5B00BB4491 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFC8781FAF8EF900BB4491 /* CocoaLumberjack.framework */,
+				F2DFC87F1FAF8EF900BB4491 /* CocoaLumberjackSwift.framework */,
+				F2DFC8841FAF8EF900BB4491 /* Eureka.framework */,
+				F2DFC8801FAF8EF900BB4491 /* Firebase.framework */,
+				F2DFC8821FAF8EF900BB4491 /* FirebaseAnalytics.framework */,
+				F2DFC87B1FAF8EF900BB4491 /* FirebaseCore.framework */,
+				F2DFC8811FAF8EF900BB4491 /* FirebaseCoreDiagnostics.framework */,
+				F2DFC8831FAF8EF900BB4491 /* FirebaseCrash.framework */,
+				F2DFC8771FAF8EF900BB4491 /* FirebaseInstanceID.framework */,
+				F2DFC8861FAF8EF900BB4491 /* FirebaseNanoPB.framework */,
+				F2DFC8871FAF8EF900BB4491 /* GoogleToolboxForMac.framework */,
+				F2DFC87C1FAF8EF900BB4491 /* nanopb.framework */,
+				F2DFC87D1FAF8EF900BB4491 /* PluggableApplicationDelegate.framework */,
+				F2DFC8851FAF8EF900BB4491 /* ReactiveCocoa.framework */,
+				F2DFC8791FAF8EF900BB4491 /* ReactiveEureka.framework */,
+				F2DFC87E1FAF8EF900BB4491 /* ReactiveSwift.framework */,
+				F2DFC87A1FAF8EF900BB4491 /* Result.framework */,
+				F2DFC8741FAF8E8700BB4491 /* Swinject.framework */,
+				F2DFC8731FAF8E8700BB4491 /* SwinjectStoryboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -486,6 +614,7 @@
 				F2DFC7931FAF12BF00BB4491 /* Frameworks */,
 				F2DFC7941FAF12BF00BB4491 /* Resources */,
 				F2DFC7D21FAF15DB00BB4491 /* Embed Frameworks */,
+				F2DFC89B1FAF8F2500BB4491 /* carthage copy-frameworks */,
 			);
 			buildRules = (
 			);
@@ -493,6 +622,7 @@
 				F2DFC7CA1FAF15DB00BB4491 /* PBXTargetDependency */,
 				F2DFC7EE1FAF160B00BB4491 /* PBXTargetDependency */,
 				F2DFC8101FAF162100BB4491 /* PBXTargetDependency */,
+				F2DFC86C1FAF8E5600BB4491 /* PBXTargetDependency */,
 			);
 			name = MVVMTemplate;
 			productName = MVVMTemplate;
@@ -511,6 +641,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F2DFC89D1FAF903500BB4491 /* PBXTargetDependency */,
 			);
 			name = Model;
 			productName = Model;
@@ -548,6 +679,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F2DFC89F1FAF903900BB4491 /* PBXTargetDependency */,
 			);
 			name = ViewModel;
 			productName = ViewModel;
@@ -585,6 +717,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F2DFC8A11FAF903D00BB4491 /* PBXTargetDependency */,
 			);
 			name = View;
 			productName = View;
@@ -712,12 +845,12 @@
 			targets = (
 				F2DFC7951FAF12BF00BB4491 /* MVVMTemplate */,
 				F2DFC7B51FAF15DA00BB4491 /* Model */,
-				F2DFC7BD1FAF15DB00BB4491 /* ModelTests */,
 				F2DFC7D91FAF160A00BB4491 /* ViewModel */,
-				F2DFC7E11FAF160A00BB4491 /* ViewModelTests */,
 				F2DFC7FB1FAF162000BB4491 /* View */,
-				F2DFC8031FAF162100BB4491 /* ViewTests */,
 				F2DFC8341FAF17CD00BB4491 /* Helpers */,
+				F2DFC8031FAF162100BB4491 /* ViewTests */,
+				F2DFC7E11FAF160A00BB4491 /* ViewModelTests */,
+				F2DFC7BD1FAF15DB00BB4491 /* ModelTests */,
 				F2DFC83C1FAF17CD00BB4491 /* HelpersTests */,
 			);
 		};
@@ -791,6 +924,43 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F2DFC89B1FAF8F2500BB4491 /* carthage copy-frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/FirebaseCore.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FirebaseCrash.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Swinject.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwinjectStoryboard.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PluggableApplicationDelegate.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Eureka.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CocoaLumberjack.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CocoaLumberjackSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Firebase.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FirebaseAnalytics.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FirebaseCoreDiagnostics.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FirebaseNanoPB.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FirebaseInstanceID.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/GoogleToolboxForMac.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/nanopb.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Protobuf.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveEureka.framework",
+			);
+			name = "carthage copy-frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F2DFC7921FAF12BF00BB4491 /* Sources */ = {
@@ -914,6 +1084,26 @@
 			isa = PBXTargetDependency;
 			target = F2DFC8341FAF17CD00BB4491 /* Helpers */;
 			targetProxy = F2DFC83F1FAF17CD00BB4491 /* PBXContainerItemProxy */;
+		};
+		F2DFC86C1FAF8E5600BB4491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DFC8341FAF17CD00BB4491 /* Helpers */;
+			targetProxy = F2DFC86B1FAF8E5600BB4491 /* PBXContainerItemProxy */;
+		};
+		F2DFC89D1FAF903500BB4491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DFC8341FAF17CD00BB4491 /* Helpers */;
+			targetProxy = F2DFC89C1FAF903500BB4491 /* PBXContainerItemProxy */;
+		};
+		F2DFC89F1FAF903900BB4491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DFC8341FAF17CD00BB4491 /* Helpers */;
+			targetProxy = F2DFC89E1FAF903900BB4491 /* PBXContainerItemProxy */;
+		};
+		F2DFC8A11FAF903D00BB4491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DFC8341FAF17CD00BB4491 /* Helpers */;
+			targetProxy = F2DFC8A01FAF903D00BB4491 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1050,7 +1240,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS8W6559GP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MVVMTemplate/Resources/Configs/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.MVVMTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1065,7 +1260,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS8W6559GP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MVVMTemplate/Resources/Configs/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.MVVMTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1323,6 +1523,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MVVMTemplate/Resources/Configs/Helpers/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1347,6 +1551,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MVVMTemplate/Resources/Configs/Helpers/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
