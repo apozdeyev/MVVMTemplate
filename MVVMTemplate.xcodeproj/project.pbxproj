@@ -8,11 +8,119 @@
 
 /* Begin PBXBuildFile section */
 		F2DFC79A1FAF12BF00BB4491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC7991FAF12BF00BB4491 /* AppDelegate.swift */; };
-		F2DFC79C1FAF12BF00BB4491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC79B1FAF12BF00BB4491 /* ViewController.swift */; };
 		F2DFC79F1FAF12BF00BB4491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DFC79D1FAF12BF00BB4491 /* Main.storyboard */; };
 		F2DFC7A11FAF12BF00BB4491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DFC7A01FAF12BF00BB4491 /* Assets.xcassets */; };
 		F2DFC7A41FAF12BF00BB4491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DFC7A21FAF12BF00BB4491 /* LaunchScreen.storyboard */; };
+		F2DFC7BF1FAF15DB00BB4491 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7B61FAF15DA00BB4491 /* Model.framework */; };
+		F2DFC7C61FAF15DB00BB4491 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC7C51FAF15DB00BB4491 /* ModelTests.swift */; };
+		F2DFC7CB1FAF15DB00BB4491 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7B61FAF15DA00BB4491 /* Model.framework */; };
+		F2DFC7CC1FAF15DB00BB4491 /* Model.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7B61FAF15DA00BB4491 /* Model.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2DFC7E31FAF160A00BB4491 /* ViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7DA1FAF160A00BB4491 /* ViewModel.framework */; };
+		F2DFC7EA1FAF160B00BB4491 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC7E91FAF160B00BB4491 /* ViewModelTests.swift */; };
+		F2DFC7EF1FAF160B00BB4491 /* ViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7DA1FAF160A00BB4491 /* ViewModel.framework */; };
+		F2DFC7F01FAF160B00BB4491 /* ViewModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7DA1FAF160A00BB4491 /* ViewModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2DFC8051FAF162100BB4491 /* View.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7FC1FAF162000BB4491 /* View.framework */; };
+		F2DFC80C1FAF162100BB4491 /* ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC80B1FAF162100BB4491 /* ViewTests.swift */; };
+		F2DFC8111FAF162100BB4491 /* View.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7FC1FAF162000BB4491 /* View.framework */; };
+		F2DFC8121FAF162100BB4491 /* View.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7FC1FAF162000BB4491 /* View.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2DFC81A1FAF164100BB4491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC79B1FAF12BF00BB4491 /* ViewController.swift */; };
+		F2DFC82D1FAF178E00BB4491 /* Model.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFC8281FAF16CA00BB4491 /* Model.h */; };
+		F2DFC82E1FAF179D00BB4491 /* View.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFC8251FAF16CA00BB4491 /* View.h */; };
+		F2DFC82F1FAF17A200BB4491 /* ViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFC82C1FAF16CA00BB4491 /* ViewModel.h */; };
+		F2DFC83E1FAF17CD00BB4491 /* Helpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8351FAF17CD00BB4491 /* Helpers.framework */; };
+		F2DFC8431FAF17CD00BB4491 /* HelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8421FAF17CD00BB4491 /* HelpersTests.swift */; };
+		F2DFC8451FAF17CD00BB4491 /* Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFC8371FAF17CD00BB4491 /* Helpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2DFC84F1FAF17FF00BB4491 /* Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFC84D1FAF17FA00BB4491 /* Helpers.h */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2DFC7C01FAF15DB00BB4491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DFC7B51FAF15DA00BB4491;
+			remoteInfo = Model;
+		};
+		F2DFC7C21FAF15DB00BB4491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DFC7951FAF12BF00BB4491;
+			remoteInfo = MVVMTemplate;
+		};
+		F2DFC7C91FAF15DB00BB4491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DFC7B51FAF15DA00BB4491;
+			remoteInfo = Model;
+		};
+		F2DFC7E41FAF160A00BB4491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DFC7D91FAF160A00BB4491;
+			remoteInfo = ViewModel;
+		};
+		F2DFC7E61FAF160B00BB4491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DFC7951FAF12BF00BB4491;
+			remoteInfo = MVVMTemplate;
+		};
+		F2DFC7ED1FAF160B00BB4491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DFC7D91FAF160A00BB4491;
+			remoteInfo = ViewModel;
+		};
+		F2DFC8061FAF162100BB4491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DFC7FB1FAF162000BB4491;
+			remoteInfo = View;
+		};
+		F2DFC8081FAF162100BB4491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DFC7951FAF12BF00BB4491;
+			remoteInfo = MVVMTemplate;
+		};
+		F2DFC80F1FAF162100BB4491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DFC7FB1FAF162000BB4491;
+			remoteInfo = View;
+		};
+		F2DFC83F1FAF17CD00BB4491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DFC8341FAF17CD00BB4491;
+			remoteInfo = Helpers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F2DFC7D21FAF15DB00BB4491 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F2DFC7CC1FAF15DB00BB4491 /* Model.framework in Embed Frameworks */,
+				F2DFC8121FAF162100BB4491 /* View.framework in Embed Frameworks */,
+				F2DFC7F01FAF160B00BB4491 /* ViewModel.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F2DFC7961FAF12BF00BB4491 /* MVVMTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +130,32 @@
 		F2DFC7A01FAF12BF00BB4491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2DFC7A31FAF12BF00BB4491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2DFC7A51FAF12BF00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DFC7B61FAF15DA00BB4491 /* Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DFC7BE1FAF15DB00BB4491 /* ModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DFC7C51FAF15DB00BB4491 /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		F2DFC7C71FAF15DB00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DFC7DA1FAF160A00BB4491 /* ViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DFC7E21FAF160A00BB4491 /* ViewModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DFC7E91FAF160B00BB4491 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		F2DFC7EB1FAF160B00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DFC7FC1FAF162000BB4491 /* View.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = View.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DFC8041FAF162100BB4491 /* ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DFC80B1FAF162100BB4491 /* ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTests.swift; sourceTree = "<group>"; };
+		F2DFC80D1FAF162100BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DFC8241FAF16CA00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DFC8251FAF16CA00BB4491 /* View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		F2DFC8271FAF16CA00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DFC8281FAF16CA00BB4491 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		F2DFC82B1FAF16CA00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DFC82C1FAF16CA00BB4491 /* ViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		F2DFC8351FAF17CD00BB4491 /* Helpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Helpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DFC8371FAF17CD00BB4491 /* Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
+		F2DFC8381FAF17CD00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DFC83D1FAF17CD00BB4491 /* HelpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelpersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DFC8421FAF17CD00BB4491 /* HelpersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpersTests.swift; sourceTree = "<group>"; };
+		F2DFC8441FAF17CD00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DFC84D1FAF17FA00BB4491 /* Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
+		F2DFC84E1FAF17FA00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +163,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2DFC7CB1FAF15DB00BB4491 /* Model.framework in Frameworks */,
+				F2DFC8111FAF162100BB4491 /* View.framework in Frameworks */,
+				F2DFC7EF1FAF160B00BB4491 /* ViewModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC7B21FAF15DA00BB4491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC7BB1FAF15DB00BB4491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DFC7BF1FAF15DB00BB4491 /* Model.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC7D61FAF160A00BB4491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC7DF1FAF160A00BB4491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DFC7E31FAF160A00BB4491 /* ViewModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC7F81FAF162000BB4491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC8011FAF162100BB4491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DFC8051FAF162100BB4491 /* View.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC8311FAF17CD00BB4491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC83A1FAF17CD00BB4491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DFC83E1FAF17CD00BB4491 /* Helpers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +235,7 @@
 		F2DFC78D1FAF12BF00BB4491 = {
 			isa = PBXGroup;
 			children = (
+				F2DFC7D41FAF15EA00BB4491 /* Tests */,
 				F2DFC7981FAF12BF00BB4491 /* MVVMTemplate */,
 				F2DFC7971FAF12BF00BB4491 /* Products */,
 			);
@@ -47,6 +245,14 @@
 			isa = PBXGroup;
 			children = (
 				F2DFC7961FAF12BF00BB4491 /* MVVMTemplate.app */,
+				F2DFC7B61FAF15DA00BB4491 /* Model.framework */,
+				F2DFC7BE1FAF15DB00BB4491 /* ModelTests.xctest */,
+				F2DFC7DA1FAF160A00BB4491 /* ViewModel.framework */,
+				F2DFC7E21FAF160A00BB4491 /* ViewModelTests.xctest */,
+				F2DFC7FC1FAF162000BB4491 /* View.framework */,
+				F2DFC8041FAF162100BB4491 /* ViewTests.xctest */,
+				F2DFC8351FAF17CD00BB4491 /* Helpers.framework */,
+				F2DFC83D1FAF17CD00BB4491 /* HelpersTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +260,9 @@
 		F2DFC7981FAF12BF00BB4491 /* MVVMTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				F2DFC8361FAF17CD00BB4491 /* Helpers */,
+				F2DFC7DB1FAF160A00BB4491 /* ViewModel */,
+				F2DFC7B71FAF15DA00BB4491 /* Model */,
 				F2DFC7B01FAF13FC00BB4491 /* View */,
 				F2DFC7AC1FAF13B000BB4491 /* Resources */,
 				F2DFC7AB1FAF139800BB4491 /* Application */,
@@ -82,7 +291,11 @@
 		F2DFC7AD1FAF13BF00BB4491 /* Configs */ = {
 			isa = PBXGroup;
 			children = (
-				F2DFC7A51FAF12BF00BB4491 /* Info.plist */,
+				F2DFC84C1FAF17FA00BB4491 /* Helpers */,
+				F2DFC8291FAF16CA00BB4491 /* App */,
+				F2DFC8261FAF16CA00BB4491 /* Model */,
+				F2DFC8231FAF16CA00BB4491 /* View */,
+				F2DFC82A1FAF16CA00BB4491 /* ViewModel */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -112,7 +325,157 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F2DFC7B71FAF15DA00BB4491 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2DFC7C41FAF15DB00BB4491 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFC7C51FAF15DB00BB4491 /* ModelTests.swift */,
+				F2DFC7C71FAF15DB00BB4491 /* Info.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2DFC7D41FAF15EA00BB4491 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFC8411FAF17CD00BB4491 /* Helpers */,
+				F2DFC80A1FAF162100BB4491 /* View */,
+				F2DFC7E81FAF160B00BB4491 /* ViewModel */,
+				F2DFC7C41FAF15DB00BB4491 /* Model */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		F2DFC7DB1FAF160A00BB4491 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F2DFC7E81FAF160B00BB4491 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFC7E91FAF160B00BB4491 /* ViewModelTests.swift */,
+				F2DFC7EB1FAF160B00BB4491 /* Info.plist */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F2DFC80A1FAF162100BB4491 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFC80B1FAF162100BB4491 /* ViewTests.swift */,
+				F2DFC80D1FAF162100BB4491 /* Info.plist */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2DFC8231FAF16CA00BB4491 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFC8241FAF16CA00BB4491 /* Info.plist */,
+				F2DFC8251FAF16CA00BB4491 /* View.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2DFC8261FAF16CA00BB4491 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFC8271FAF16CA00BB4491 /* Info.plist */,
+				F2DFC8281FAF16CA00BB4491 /* Model.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2DFC8291FAF16CA00BB4491 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFC7A51FAF12BF00BB4491 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F2DFC82A1FAF16CA00BB4491 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFC82B1FAF16CA00BB4491 /* Info.plist */,
+				F2DFC82C1FAF16CA00BB4491 /* ViewModel.h */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F2DFC8361FAF17CD00BB4491 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFC8371FAF17CD00BB4491 /* Helpers.h */,
+				F2DFC8381FAF17CD00BB4491 /* Info.plist */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F2DFC8411FAF17CD00BB4491 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFC8421FAF17CD00BB4491 /* HelpersTests.swift */,
+				F2DFC8441FAF17CD00BB4491 /* Info.plist */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F2DFC84C1FAF17FA00BB4491 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFC84D1FAF17FA00BB4491 /* Helpers.h */,
+				F2DFC84E1FAF17FA00BB4491 /* Info.plist */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F2DFC7B31FAF15DA00BB4491 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DFC82D1FAF178E00BB4491 /* Model.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC7D71FAF160A00BB4491 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DFC82F1FAF17A200BB4491 /* ViewModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC7F91FAF162000BB4491 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DFC82E1FAF179D00BB4491 /* View.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC8321FAF17CD00BB4491 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DFC84F1FAF17FF00BB4491 /* Helpers.h in Headers */,
+				F2DFC8451FAF17CD00BB4491 /* Helpers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		F2DFC7951FAF12BF00BB4491 /* MVVMTemplate */ = {
@@ -122,15 +485,166 @@
 				F2DFC7921FAF12BF00BB4491 /* Sources */,
 				F2DFC7931FAF12BF00BB4491 /* Frameworks */,
 				F2DFC7941FAF12BF00BB4491 /* Resources */,
+				F2DFC7D21FAF15DB00BB4491 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F2DFC7CA1FAF15DB00BB4491 /* PBXTargetDependency */,
+				F2DFC7EE1FAF160B00BB4491 /* PBXTargetDependency */,
+				F2DFC8101FAF162100BB4491 /* PBXTargetDependency */,
 			);
 			name = MVVMTemplate;
 			productName = MVVMTemplate;
 			productReference = F2DFC7961FAF12BF00BB4491 /* MVVMTemplate.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F2DFC7B51FAF15DA00BB4491 /* Model */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DFC7D11FAF15DB00BB4491 /* Build configuration list for PBXNativeTarget "Model" */;
+			buildPhases = (
+				F2DFC7B11FAF15DA00BB4491 /* Sources */,
+				F2DFC7B21FAF15DA00BB4491 /* Frameworks */,
+				F2DFC7B31FAF15DA00BB4491 /* Headers */,
+				F2DFC7B41FAF15DA00BB4491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Model;
+			productName = Model;
+			productReference = F2DFC7B61FAF15DA00BB4491 /* Model.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2DFC7BD1FAF15DB00BB4491 /* ModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DFC7D31FAF15DB00BB4491 /* Build configuration list for PBXNativeTarget "ModelTests" */;
+			buildPhases = (
+				F2DFC7BA1FAF15DB00BB4491 /* Sources */,
+				F2DFC7BB1FAF15DB00BB4491 /* Frameworks */,
+				F2DFC7BC1FAF15DB00BB4491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2DFC7C11FAF15DB00BB4491 /* PBXTargetDependency */,
+				F2DFC7C31FAF15DB00BB4491 /* PBXTargetDependency */,
+			);
+			name = ModelTests;
+			productName = ModelTests;
+			productReference = F2DFC7BE1FAF15DB00BB4491 /* ModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2DFC7D91FAF160A00BB4491 /* ViewModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DFC7F11FAF160B00BB4491 /* Build configuration list for PBXNativeTarget "ViewModel" */;
+			buildPhases = (
+				F2DFC7D51FAF160A00BB4491 /* Sources */,
+				F2DFC7D61FAF160A00BB4491 /* Frameworks */,
+				F2DFC7D71FAF160A00BB4491 /* Headers */,
+				F2DFC7D81FAF160A00BB4491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewModel;
+			productName = ViewModel;
+			productReference = F2DFC7DA1FAF160A00BB4491 /* ViewModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2DFC7E11FAF160A00BB4491 /* ViewModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DFC7F41FAF160B00BB4491 /* Build configuration list for PBXNativeTarget "ViewModelTests" */;
+			buildPhases = (
+				F2DFC7DE1FAF160A00BB4491 /* Sources */,
+				F2DFC7DF1FAF160A00BB4491 /* Frameworks */,
+				F2DFC7E01FAF160A00BB4491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2DFC7E51FAF160A00BB4491 /* PBXTargetDependency */,
+				F2DFC7E71FAF160B00BB4491 /* PBXTargetDependency */,
+			);
+			name = ViewModelTests;
+			productName = ViewModelTests;
+			productReference = F2DFC7E21FAF160A00BB4491 /* ViewModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2DFC7FB1FAF162000BB4491 /* View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DFC8131FAF162100BB4491 /* Build configuration list for PBXNativeTarget "View" */;
+			buildPhases = (
+				F2DFC7F71FAF162000BB4491 /* Sources */,
+				F2DFC7F81FAF162000BB4491 /* Frameworks */,
+				F2DFC7F91FAF162000BB4491 /* Headers */,
+				F2DFC7FA1FAF162000BB4491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = View;
+			productName = View;
+			productReference = F2DFC7FC1FAF162000BB4491 /* View.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2DFC8031FAF162100BB4491 /* ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DFC8161FAF162100BB4491 /* Build configuration list for PBXNativeTarget "ViewTests" */;
+			buildPhases = (
+				F2DFC8001FAF162100BB4491 /* Sources */,
+				F2DFC8011FAF162100BB4491 /* Frameworks */,
+				F2DFC8021FAF162100BB4491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2DFC8071FAF162100BB4491 /* PBXTargetDependency */,
+				F2DFC8091FAF162100BB4491 /* PBXTargetDependency */,
+			);
+			name = ViewTests;
+			productName = ViewTests;
+			productReference = F2DFC8041FAF162100BB4491 /* ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2DFC8341FAF17CD00BB4491 /* Helpers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DFC8461FAF17CD00BB4491 /* Build configuration list for PBXNativeTarget "Helpers" */;
+			buildPhases = (
+				F2DFC8301FAF17CD00BB4491 /* Sources */,
+				F2DFC8311FAF17CD00BB4491 /* Frameworks */,
+				F2DFC8321FAF17CD00BB4491 /* Headers */,
+				F2DFC8331FAF17CD00BB4491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Helpers;
+			productName = Helpers;
+			productReference = F2DFC8351FAF17CD00BB4491 /* Helpers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2DFC83C1FAF17CD00BB4491 /* HelpersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DFC8491FAF17CD00BB4491 /* Build configuration list for PBXNativeTarget "HelpersTests" */;
+			buildPhases = (
+				F2DFC8391FAF17CD00BB4491 /* Sources */,
+				F2DFC83A1FAF17CD00BB4491 /* Frameworks */,
+				F2DFC83B1FAF17CD00BB4491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2DFC8401FAF17CD00BB4491 /* PBXTargetDependency */,
+			);
+			name = HelpersTests;
+			productName = HelpersTests;
+			productReference = F2DFC83D1FAF17CD00BB4491 /* HelpersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -143,6 +657,41 @@
 				ORGANIZATIONNAME = VitaSw;
 				TargetAttributes = {
 					F2DFC7951FAF12BF00BB4491 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F2DFC7B51FAF15DA00BB4491 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F2DFC7BD1FAF15DB00BB4491 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2DFC7951FAF12BF00BB4491;
+					};
+					F2DFC7D91FAF160A00BB4491 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F2DFC7E11FAF160A00BB4491 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2DFC7951FAF12BF00BB4491;
+					};
+					F2DFC7FB1FAF162000BB4491 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F2DFC8031FAF162100BB4491 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2DFC7951FAF12BF00BB4491;
+					};
+					F2DFC8341FAF17CD00BB4491 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F2DFC83C1FAF17CD00BB4491 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -162,6 +711,14 @@
 			projectRoot = "";
 			targets = (
 				F2DFC7951FAF12BF00BB4491 /* MVVMTemplate */,
+				F2DFC7B51FAF15DA00BB4491 /* Model */,
+				F2DFC7BD1FAF15DB00BB4491 /* ModelTests */,
+				F2DFC7D91FAF160A00BB4491 /* ViewModel */,
+				F2DFC7E11FAF160A00BB4491 /* ViewModelTests */,
+				F2DFC7FB1FAF162000BB4491 /* View */,
+				F2DFC8031FAF162100BB4491 /* ViewTests */,
+				F2DFC8341FAF17CD00BB4491 /* Helpers */,
+				F2DFC83C1FAF17CD00BB4491 /* HelpersTests */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +734,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2DFC7B41FAF15DA00BB4491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC7BC1FAF15DB00BB4491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC7D81FAF160A00BB4491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC7E01FAF160A00BB4491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC7FA1FAF162000BB4491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC8021FAF162100BB4491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC8331FAF17CD00BB4491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC83B1FAF17CD00BB4491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -184,12 +797,125 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2DFC79C1FAF12BF00BB4491 /* ViewController.swift in Sources */,
+				F2DFC81A1FAF164100BB4491 /* ViewController.swift in Sources */,
 				F2DFC79A1FAF12BF00BB4491 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2DFC7B11FAF15DA00BB4491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC7BA1FAF15DB00BB4491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DFC7C61FAF15DB00BB4491 /* ModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC7D51FAF160A00BB4491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC7DE1FAF160A00BB4491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DFC7EA1FAF160B00BB4491 /* ViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC7F71FAF162000BB4491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC8001FAF162100BB4491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DFC80C1FAF162100BB4491 /* ViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC8301FAF17CD00BB4491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFC8391FAF17CD00BB4491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DFC8431FAF17CD00BB4491 /* HelpersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2DFC7C11FAF15DB00BB4491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DFC7B51FAF15DA00BB4491 /* Model */;
+			targetProxy = F2DFC7C01FAF15DB00BB4491 /* PBXContainerItemProxy */;
+		};
+		F2DFC7C31FAF15DB00BB4491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DFC7951FAF12BF00BB4491 /* MVVMTemplate */;
+			targetProxy = F2DFC7C21FAF15DB00BB4491 /* PBXContainerItemProxy */;
+		};
+		F2DFC7CA1FAF15DB00BB4491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DFC7B51FAF15DA00BB4491 /* Model */;
+			targetProxy = F2DFC7C91FAF15DB00BB4491 /* PBXContainerItemProxy */;
+		};
+		F2DFC7E51FAF160A00BB4491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DFC7D91FAF160A00BB4491 /* ViewModel */;
+			targetProxy = F2DFC7E41FAF160A00BB4491 /* PBXContainerItemProxy */;
+		};
+		F2DFC7E71FAF160B00BB4491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DFC7951FAF12BF00BB4491 /* MVVMTemplate */;
+			targetProxy = F2DFC7E61FAF160B00BB4491 /* PBXContainerItemProxy */;
+		};
+		F2DFC7EE1FAF160B00BB4491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DFC7D91FAF160A00BB4491 /* ViewModel */;
+			targetProxy = F2DFC7ED1FAF160B00BB4491 /* PBXContainerItemProxy */;
+		};
+		F2DFC8071FAF162100BB4491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DFC7FB1FAF162000BB4491 /* View */;
+			targetProxy = F2DFC8061FAF162100BB4491 /* PBXContainerItemProxy */;
+		};
+		F2DFC8091FAF162100BB4491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DFC7951FAF12BF00BB4491 /* MVVMTemplate */;
+			targetProxy = F2DFC8081FAF162100BB4491 /* PBXContainerItemProxy */;
+		};
+		F2DFC8101FAF162100BB4491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DFC7FB1FAF162000BB4491 /* View */;
+			targetProxy = F2DFC80F1FAF162100BB4491 /* PBXContainerItemProxy */;
+		};
+		F2DFC8401FAF17CD00BB4491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DFC8341FAF17CD00BB4491 /* Helpers */;
+			targetProxy = F2DFC83F1FAF17CD00BB4491 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F2DFC79D1FAF12BF00BB4491 /* Main.storyboard */ = {
@@ -324,7 +1050,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS8W6559GP;
-				INFOPLIST_FILE = MVVMTemplate/Resources/Configs/Info.plist;
+				INFOPLIST_FILE = MVVMTemplate/Resources/Configs/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.MVVMTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,9 +1065,323 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS8W6559GP;
-				INFOPLIST_FILE = MVVMTemplate/Resources/Configs/Info.plist;
+				INFOPLIST_FILE = MVVMTemplate/Resources/Configs/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.MVVMTemplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2DFC7CD1FAF15DB00BB4491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MVVMTemplate/Resources/Configs/Model/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.Model;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2DFC7CE1FAF15DB00BB4491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MVVMTemplate/Resources/Configs/Model/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.Model;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2DFC7CF1FAF15DB00BB4491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				INFOPLIST_FILE = MVVMTemplate/Tests/Model/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMTemplate.app/MVVMTemplate";
+			};
+			name = Debug;
+		};
+		F2DFC7D01FAF15DB00BB4491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				INFOPLIST_FILE = MVVMTemplate/Tests/Model/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMTemplate.app/MVVMTemplate";
+			};
+			name = Release;
+		};
+		F2DFC7F21FAF160B00BB4491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MVVMTemplate/Resources/Configs/ViewModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ViewModel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2DFC7F31FAF160B00BB4491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MVVMTemplate/Resources/Configs/ViewModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ViewModel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2DFC7F51FAF160B00BB4491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				INFOPLIST_FILE = MVVMTemplate/Tests/ViewModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ViewModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMTemplate.app/MVVMTemplate";
+			};
+			name = Debug;
+		};
+		F2DFC7F61FAF160B00BB4491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				INFOPLIST_FILE = MVVMTemplate/Tests/ViewModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ViewModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMTemplate.app/MVVMTemplate";
+			};
+			name = Release;
+		};
+		F2DFC8141FAF162100BB4491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MVVMTemplate/Resources/Configs/View/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.View;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2DFC8151FAF162100BB4491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MVVMTemplate/Resources/Configs/View/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.View;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2DFC8171FAF162100BB4491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				INFOPLIST_FILE = MVVMTemplate/Tests/View/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMTemplate.app/MVVMTemplate";
+			};
+			name = Debug;
+		};
+		F2DFC8181FAF162100BB4491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				INFOPLIST_FILE = MVVMTemplate/Tests/View/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMTemplate.app/MVVMTemplate";
+			};
+			name = Release;
+		};
+		F2DFC8471FAF17CD00BB4491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MVVMTemplate/Resources/Configs/Helpers/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.Helpers;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2DFC8481FAF17CD00BB4491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MVVMTemplate/Resources/Configs/Helpers/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.Helpers;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2DFC84A1FAF17CD00BB4491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				INFOPLIST_FILE = MVVMTemplate/Tests/Helpers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.HelpersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2DFC84B1FAF17CD00BB4491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZS8W6559GP;
+				INFOPLIST_FILE = MVVMTemplate/Tests/Helpers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.HelpersTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -365,6 +1405,78 @@
 			buildConfigurations = (
 				F2DFC7A91FAF12BF00BB4491 /* Debug */,
 				F2DFC7AA1FAF12BF00BB4491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DFC7D11FAF15DB00BB4491 /* Build configuration list for PBXNativeTarget "Model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DFC7CD1FAF15DB00BB4491 /* Debug */,
+				F2DFC7CE1FAF15DB00BB4491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DFC7D31FAF15DB00BB4491 /* Build configuration list for PBXNativeTarget "ModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DFC7CF1FAF15DB00BB4491 /* Debug */,
+				F2DFC7D01FAF15DB00BB4491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DFC7F11FAF160B00BB4491 /* Build configuration list for PBXNativeTarget "ViewModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DFC7F21FAF160B00BB4491 /* Debug */,
+				F2DFC7F31FAF160B00BB4491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DFC7F41FAF160B00BB4491 /* Build configuration list for PBXNativeTarget "ViewModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DFC7F51FAF160B00BB4491 /* Debug */,
+				F2DFC7F61FAF160B00BB4491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DFC8131FAF162100BB4491 /* Build configuration list for PBXNativeTarget "View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DFC8141FAF162100BB4491 /* Debug */,
+				F2DFC8151FAF162100BB4491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DFC8161FAF162100BB4491 /* Build configuration list for PBXNativeTarget "ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DFC8171FAF162100BB4491 /* Debug */,
+				F2DFC8181FAF162100BB4491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DFC8461FAF17CD00BB4491 /* Build configuration list for PBXNativeTarget "Helpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DFC8471FAF17CD00BB4491 /* Debug */,
+				F2DFC8481FAF17CD00BB4491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DFC8491FAF17CD00BB4491 /* Build configuration list for PBXNativeTarget "HelpersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DFC84A1FAF17CD00BB4491 /* Debug */,
+				F2DFC84B1FAF17CD00BB4491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
