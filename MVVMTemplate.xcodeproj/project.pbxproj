@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F23DC5B71FB035C300DA471A /* FirebaseApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8D01FAF92C900BB4491 /* FirebaseApplicationService.swift */; };
+		F2A5207F1FB046D600E8DCFB /* FirebaseApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8D01FAF92C900BB4491 /* FirebaseApplicationService.swift */; };
 		F2DFC79A1FAF12BF00BB4491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC7991FAF12BF00BB4491 /* AppDelegate.swift */; };
 		F2DFC7A11FAF12BF00BB4491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DFC7A01FAF12BF00BB4491 /* Assets.xcassets */; };
 		F2DFC7BF1FAF15DB00BB4491 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7B61FAF15DA00BB4491 /* Model.framework */; };
@@ -1092,7 +1092,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F23DC5B71FB035C300DA471A /* FirebaseApplicationService.swift in Sources */,
 				F2DFC79A1FAF12BF00BB4491 /* AppDelegate.swift in Sources */,
 				F2DFC8A31FAF921100BB4491 /* BootstraperApplicationService.swift in Sources */,
 			);
@@ -1152,6 +1151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A5207F1FB046D600E8DCFB /* FirebaseApplicationService.swift in Sources */,
 				F2DFC8D91FAF92D900BB4491 /* LocalizedString.swift in Sources */,
 				F2DFC8DC1FAF92E000BB4491 /* Logging.swift in Sources */,
 				F2DFC8DD1FAF92E000BB4491 /* LoggingImpl.swift in Sources */,
@@ -1687,6 +1687,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.Helpers;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1716,6 +1717,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.Helpers;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
