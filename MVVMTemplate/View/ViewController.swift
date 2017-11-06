@@ -2,24 +2,34 @@
 //  ViewController.swift
 //  MVVMTemplate
 //
-//  Created by Anatoliy Pozdeyev on 05/11/2017.
+//  Created by Anatoliy Pozdeyev on 14/08/2017.
 //  Copyright © 2017 VitaSw. All rights reserved.
 //
 
 import UIKit
+import ViewModel
+import Helpers
 
-class ViewController: UIViewController {
+public final class ViewController: UIViewController {
 
-	override func viewDidLoad() {
+	@IBOutlet var label: UILabel!
+	
+	public override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		
+		LogDebug("ViewController loaded")
+		
+		label.text = viewModel?.test
 	}
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
+	
+	public var viewModel: ViewModeling?
+	
+	@IBAction func onCrashButtonTapped() {
+		crash()
 	}
-
-
+	
+	fileprivate func crash() -> Never {
+		fatalError("test crash")
+	}
 }
 
