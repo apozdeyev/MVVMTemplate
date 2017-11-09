@@ -7,26 +7,144 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F26849B81FB4BC0800FFE424 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8801FAF8EF900BB4491 /* Firebase.framework */; };
+		F26849B91FB4BC0800FFE424 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8E11FAF94C000BB4491 /* Protobuf.framework */; };
+		F26849BA1FB4BC0800FFE424 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8771FAF8EF900BB4491 /* FirebaseInstanceID.framework */; };
+		F26849BB1FB4BC0800FFE424 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8781FAF8EF900BB4491 /* CocoaLumberjack.framework */; };
+		F26849BC1FB4BC0800FFE424 /* ReactiveEureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8791FAF8EF900BB4491 /* ReactiveEureka.framework */; };
+		F26849BD1FB4BC0800FFE424 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87A1FAF8EF900BB4491 /* Result.framework */; };
+		F26849BE1FB4BC0800FFE424 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87B1FAF8EF900BB4491 /* FirebaseCore.framework */; };
+		F26849BF1FB4BC0800FFE424 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87C1FAF8EF900BB4491 /* nanopb.framework */; };
+		F26849C01FB4BC0800FFE424 /* PluggableApplicationDelegate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87D1FAF8EF900BB4491 /* PluggableApplicationDelegate.framework */; };
+		F26849C11FB4BC0800FFE424 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87E1FAF8EF900BB4491 /* ReactiveSwift.framework */; };
+		F26849C21FB4BC0800FFE424 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87F1FAF8EF900BB4491 /* CocoaLumberjackSwift.framework */; };
+		F26849C31FB4BC0800FFE424 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8811FAF8EF900BB4491 /* FirebaseCoreDiagnostics.framework */; };
+		F26849C41FB4BC0800FFE424 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8821FAF8EF900BB4491 /* FirebaseAnalytics.framework */; };
+		F26849C51FB4BC0800FFE424 /* FirebaseCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8831FAF8EF900BB4491 /* FirebaseCrash.framework */; };
+		F26849C61FB4BC0800FFE424 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8841FAF8EF900BB4491 /* Eureka.framework */; };
+		F26849C71FB4BC0800FFE424 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8851FAF8EF900BB4491 /* ReactiveCocoa.framework */; };
+		F26849C81FB4BC0800FFE424 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8861FAF8EF900BB4491 /* FirebaseNanoPB.framework */; };
+		F26849C91FB4BC0800FFE424 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8871FAF8EF900BB4491 /* GoogleToolboxForMac.framework */; };
+		F26849CA1FB4BC4A00FFE424 /* Protobuf.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8E11FAF94C000BB4491 /* Protobuf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849CB1FB4BC4A00FFE424 /* Firebase.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8801FAF8EF900BB4491 /* Firebase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849CC1FB4BC4A00FFE424 /* FirebaseAnalytics.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8821FAF8EF900BB4491 /* FirebaseAnalytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849CD1FB4BC4A00FFE424 /* FirebaseCore.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87B1FAF8EF900BB4491 /* FirebaseCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849CE1FB4BC4A00FFE424 /* FirebaseCoreDiagnostics.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8811FAF8EF900BB4491 /* FirebaseCoreDiagnostics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849CF1FB4BC4A00FFE424 /* FirebaseCrash.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8831FAF8EF900BB4491 /* FirebaseCrash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849D01FB4BC4A00FFE424 /* FirebaseInstanceID.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8771FAF8EF900BB4491 /* FirebaseInstanceID.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849D11FB4BC4A00FFE424 /* FirebaseNanoPB.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8861FAF8EF900BB4491 /* FirebaseNanoPB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849D21FB4BC4A00FFE424 /* GoogleToolboxForMac.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8871FAF8EF900BB4491 /* GoogleToolboxForMac.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849D31FB4BC4A00FFE424 /* nanopb.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87C1FAF8EF900BB4491 /* nanopb.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849D41FB4BCD600FFE424 /* View.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7FC1FAF162000BB4491 /* View.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849D61FB4BCE600FFE424 /* Helpers.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8351FAF17CD00BB4491 /* Helpers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849D71FB4BD5A00FFE424 /* Protobuf.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8E11FAF94C000BB4491 /* Protobuf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849D81FB4BD5A00FFE424 /* CocoaLumberjack.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8781FAF8EF900BB4491 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849D91FB4BD5A00FFE424 /* CocoaLumberjackSwift.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87F1FAF8EF900BB4491 /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849DA1FB4BD5A00FFE424 /* Eureka.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8841FAF8EF900BB4491 /* Eureka.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849DB1FB4BD5A00FFE424 /* Firebase.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8801FAF8EF900BB4491 /* Firebase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849DC1FB4BD5A00FFE424 /* FirebaseAnalytics.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8821FAF8EF900BB4491 /* FirebaseAnalytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849DD1FB4BD5A00FFE424 /* FirebaseCore.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87B1FAF8EF900BB4491 /* FirebaseCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849DE1FB4BD5A00FFE424 /* FirebaseCoreDiagnostics.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8811FAF8EF900BB4491 /* FirebaseCoreDiagnostics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849DF1FB4BD5A00FFE424 /* FirebaseCrash.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8831FAF8EF900BB4491 /* FirebaseCrash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849E01FB4BD5A00FFE424 /* FirebaseInstanceID.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8771FAF8EF900BB4491 /* FirebaseInstanceID.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849E11FB4BD5A00FFE424 /* FirebaseNanoPB.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8861FAF8EF900BB4491 /* FirebaseNanoPB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849E21FB4BD5A00FFE424 /* GoogleToolboxForMac.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8871FAF8EF900BB4491 /* GoogleToolboxForMac.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849E31FB4BD5A00FFE424 /* nanopb.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87C1FAF8EF900BB4491 /* nanopb.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849E41FB4BD5A00FFE424 /* PluggableApplicationDelegate.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87D1FAF8EF900BB4491 /* PluggableApplicationDelegate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849E51FB4BD5A00FFE424 /* ReactiveCocoa.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8851FAF8EF900BB4491 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849E61FB4BD5A00FFE424 /* ReactiveEureka.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8791FAF8EF900BB4491 /* ReactiveEureka.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849E71FB4BD5A00FFE424 /* ReactiveSwift.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87E1FAF8EF900BB4491 /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849E81FB4BD5A00FFE424 /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87A1FAF8EF900BB4491 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849E91FB4BD5A00FFE424 /* Swinject.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8741FAF8E8700BB4491 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849EA1FB4BD5A00FFE424 /* SwinjectStoryboard.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8731FAF8E8700BB4491 /* SwinjectStoryboard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849EB1FB4BD8D00FFE424 /* Protobuf.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8E11FAF94C000BB4491 /* Protobuf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849EC1FB4BD8D00FFE424 /* CocoaLumberjack.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8781FAF8EF900BB4491 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849ED1FB4BD8D00FFE424 /* CocoaLumberjackSwift.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87F1FAF8EF900BB4491 /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849EE1FB4BD8D00FFE424 /* Eureka.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8841FAF8EF900BB4491 /* Eureka.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849EF1FB4BD8E00FFE424 /* Firebase.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8801FAF8EF900BB4491 /* Firebase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849F01FB4BD8E00FFE424 /* FirebaseAnalytics.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8821FAF8EF900BB4491 /* FirebaseAnalytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849F11FB4BD8E00FFE424 /* FirebaseCore.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87B1FAF8EF900BB4491 /* FirebaseCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849F21FB4BD8E00FFE424 /* FirebaseCoreDiagnostics.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8811FAF8EF900BB4491 /* FirebaseCoreDiagnostics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849F31FB4BD8E00FFE424 /* FirebaseCrash.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8831FAF8EF900BB4491 /* FirebaseCrash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849F41FB4BD8E00FFE424 /* FirebaseInstanceID.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8771FAF8EF900BB4491 /* FirebaseInstanceID.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849F51FB4BD8E00FFE424 /* FirebaseNanoPB.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8861FAF8EF900BB4491 /* FirebaseNanoPB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849F61FB4BD8E00FFE424 /* GoogleToolboxForMac.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8871FAF8EF900BB4491 /* GoogleToolboxForMac.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849F71FB4BD8E00FFE424 /* nanopb.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87C1FAF8EF900BB4491 /* nanopb.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849F81FB4BD8E00FFE424 /* PluggableApplicationDelegate.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87D1FAF8EF900BB4491 /* PluggableApplicationDelegate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849F91FB4BD8E00FFE424 /* ReactiveCocoa.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8851FAF8EF900BB4491 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849FA1FB4BD8E00FFE424 /* ReactiveEureka.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8791FAF8EF900BB4491 /* ReactiveEureka.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849FB1FB4BD8E00FFE424 /* ReactiveSwift.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87E1FAF8EF900BB4491 /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849FC1FB4BD8E00FFE424 /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87A1FAF8EF900BB4491 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849FD1FB4BD8E00FFE424 /* Swinject.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8741FAF8E8700BB4491 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849FE1FB4BD8E00FFE424 /* SwinjectStoryboard.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8731FAF8E8700BB4491 /* SwinjectStoryboard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F26849FF1FB4BD9800FFE424 /* Protobuf.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8E11FAF94C000BB4491 /* Protobuf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A001FB4BD9800FFE424 /* CocoaLumberjack.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8781FAF8EF900BB4491 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A011FB4BD9800FFE424 /* CocoaLumberjackSwift.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87F1FAF8EF900BB4491 /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A021FB4BD9800FFE424 /* Eureka.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8841FAF8EF900BB4491 /* Eureka.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A031FB4BD9800FFE424 /* Firebase.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8801FAF8EF900BB4491 /* Firebase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A041FB4BD9800FFE424 /* FirebaseAnalytics.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8821FAF8EF900BB4491 /* FirebaseAnalytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A051FB4BD9800FFE424 /* FirebaseCore.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87B1FAF8EF900BB4491 /* FirebaseCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A061FB4BD9800FFE424 /* FirebaseCoreDiagnostics.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8811FAF8EF900BB4491 /* FirebaseCoreDiagnostics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A071FB4BD9800FFE424 /* FirebaseCrash.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8831FAF8EF900BB4491 /* FirebaseCrash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A081FB4BD9800FFE424 /* FirebaseInstanceID.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8771FAF8EF900BB4491 /* FirebaseInstanceID.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A091FB4BD9800FFE424 /* FirebaseNanoPB.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8861FAF8EF900BB4491 /* FirebaseNanoPB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A0A1FB4BD9800FFE424 /* GoogleToolboxForMac.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8871FAF8EF900BB4491 /* GoogleToolboxForMac.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A0B1FB4BD9800FFE424 /* nanopb.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87C1FAF8EF900BB4491 /* nanopb.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A0C1FB4BD9800FFE424 /* PluggableApplicationDelegate.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87D1FAF8EF900BB4491 /* PluggableApplicationDelegate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A0D1FB4BD9800FFE424 /* ReactiveCocoa.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8851FAF8EF900BB4491 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A0E1FB4BD9800FFE424 /* ReactiveEureka.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8791FAF8EF900BB4491 /* ReactiveEureka.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A0F1FB4BD9800FFE424 /* ReactiveSwift.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87E1FAF8EF900BB4491 /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A101FB4BD9800FFE424 /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87A1FAF8EF900BB4491 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A111FB4BD9800FFE424 /* Swinject.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8741FAF8E8700BB4491 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A121FB4BD9800FFE424 /* SwinjectStoryboard.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8731FAF8E8700BB4491 /* SwinjectStoryboard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A131FB4BDA200FFE424 /* CocoaLumberjack.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8781FAF8EF900BB4491 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A141FB4BDA200FFE424 /* CocoaLumberjackSwift.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87F1FAF8EF900BB4491 /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A151FB4BDA200FFE424 /* Eureka.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8841FAF8EF900BB4491 /* Eureka.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A161FB4BDA200FFE424 /* PluggableApplicationDelegate.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87D1FAF8EF900BB4491 /* PluggableApplicationDelegate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A171FB4BDA200FFE424 /* ReactiveCocoa.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8851FAF8EF900BB4491 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A181FB4BDA200FFE424 /* ReactiveEureka.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8791FAF8EF900BB4491 /* ReactiveEureka.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A191FB4BDA200FFE424 /* ReactiveSwift.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87E1FAF8EF900BB4491 /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A1A1FB4BDA200FFE424 /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87A1FAF8EF900BB4491 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A1B1FB4BDA200FFE424 /* Swinject.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8741FAF8E8700BB4491 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A1C1FB4BDA200FFE424 /* SwinjectStoryboard.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8731FAF8E8700BB4491 /* SwinjectStoryboard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A1D1FB4BE0B00FFE424 /* Helpers.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8351FAF17CD00BB4491 /* Helpers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2684A1E1FB4BE2C00FFE424 /* Helpers.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8351FAF17CD00BB4491 /* Helpers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F2A5207F1FB046D600E8DCFB /* FirebaseApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8D01FAF92C900BB4491 /* FirebaseApplicationService.swift */; };
+		F2A520821FB04D9C00E8DCFB /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520801FB04D9C00E8DCFB /* Nimble.framework */; };
+		F2A520831FB04D9C00E8DCFB /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520811FB04D9C00E8DCFB /* Quick.framework */; };
+		F2A520841FB04DAA00E8DCFB /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520801FB04D9C00E8DCFB /* Nimble.framework */; };
+		F2A520851FB04DAA00E8DCFB /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520811FB04D9C00E8DCFB /* Quick.framework */; };
+		F2A520861FB04DB600E8DCFB /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520801FB04D9C00E8DCFB /* Nimble.framework */; };
+		F2A520871FB04DB600E8DCFB /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520811FB04D9C00E8DCFB /* Quick.framework */; };
+		F2B705741FB058580090A16F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520801FB04D9C00E8DCFB /* Nimble.framework */; };
+		F2B705751FB058580090A16F /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520811FB04D9C00E8DCFB /* Quick.framework */; };
+		F2B705771FB058830090A16F /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520801FB04D9C00E8DCFB /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2B705781FB058830090A16F /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520811FB04D9C00E8DCFB /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2B7057A1FB0589E0090A16F /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520801FB04D9C00E8DCFB /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2B7057B1FB0589E0090A16F /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520811FB04D9C00E8DCFB /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2B7057D1FB058B20090A16F /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520801FB04D9C00E8DCFB /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2B7057E1FB058B20090A16F /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520811FB04D9C00E8DCFB /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2B705801FB058C20090A16F /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520801FB04D9C00E8DCFB /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2B705811FB058C20090A16F /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520811FB04D9C00E8DCFB /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F2DFC79A1FAF12BF00BB4491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC7991FAF12BF00BB4491 /* AppDelegate.swift */; };
 		F2DFC7A11FAF12BF00BB4491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DFC7A01FAF12BF00BB4491 /* Assets.xcassets */; };
 		F2DFC7BF1FAF15DB00BB4491 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7B61FAF15DA00BB4491 /* Model.framework */; };
-		F2DFC7C61FAF15DB00BB4491 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC7C51FAF15DB00BB4491 /* ModelTests.swift */; };
+		F2DFC7C61FAF15DB00BB4491 /* ModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC7C51FAF15DB00BB4491 /* ModelSpec.swift */; };
 		F2DFC7CB1FAF15DB00BB4491 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7B61FAF15DA00BB4491 /* Model.framework */; };
 		F2DFC7CC1FAF15DB00BB4491 /* Model.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7B61FAF15DA00BB4491 /* Model.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F2DFC7E31FAF160A00BB4491 /* ViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7DA1FAF160A00BB4491 /* ViewModel.framework */; };
-		F2DFC7EA1FAF160B00BB4491 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC7E91FAF160B00BB4491 /* ViewModelTests.swift */; };
+		F2DFC7EA1FAF160B00BB4491 /* ViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC7E91FAF160B00BB4491 /* ViewModelSpec.swift */; };
 		F2DFC7EF1FAF160B00BB4491 /* ViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7DA1FAF160A00BB4491 /* ViewModel.framework */; };
 		F2DFC7F01FAF160B00BB4491 /* ViewModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7DA1FAF160A00BB4491 /* ViewModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F2DFC8051FAF162100BB4491 /* View.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7FC1FAF162000BB4491 /* View.framework */; };
-		F2DFC80C1FAF162100BB4491 /* ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC80B1FAF162100BB4491 /* ViewTests.swift */; };
+		F2DFC80C1FAF162100BB4491 /* ViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC80B1FAF162100BB4491 /* ViewSpec.swift */; };
 		F2DFC8111FAF162100BB4491 /* View.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7FC1FAF162000BB4491 /* View.framework */; };
 		F2DFC8121FAF162100BB4491 /* View.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7FC1FAF162000BB4491 /* View.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F2DFC82D1FAF178E00BB4491 /* Model.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFC8281FAF16CA00BB4491 /* Model.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2DFC82E1FAF179D00BB4491 /* View.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFC8251FAF16CA00BB4491 /* View.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2DFC82F1FAF17A200BB4491 /* ViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFC82C1FAF16CA00BB4491 /* ViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2DFC83E1FAF17CD00BB4491 /* Helpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8351FAF17CD00BB4491 /* Helpers.framework */; };
-		F2DFC8431FAF17CD00BB4491 /* HelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8421FAF17CD00BB4491 /* HelpersTests.swift */; };
+		F2DFC8431FAF17CD00BB4491 /* HelpersSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8421FAF17CD00BB4491 /* HelpersSpec.swift */; };
 		F2DFC8691FAF8E5600BB4491 /* Helpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8351FAF17CD00BB4491 /* Helpers.framework */; };
 		F2DFC86A1FAF8E5600BB4491 /* Helpers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8351FAF17CD00BB4491 /* Helpers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F2DFC86E1FAF8E5B00BB4491 /* Helpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8351FAF17CD00BB4491 /* Helpers.framework */; };
@@ -81,13 +199,6 @@
 			remoteGlobalIDString = F2DFC7B51FAF15DA00BB4491;
 			remoteInfo = Model;
 		};
-		F2DFC7C21FAF15DB00BB4491 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F2DFC7951FAF12BF00BB4491;
-			remoteInfo = MVVMTemplate;
-		};
 		F2DFC7C91FAF15DB00BB4491 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
@@ -102,13 +213,6 @@
 			remoteGlobalIDString = F2DFC7D91FAF160A00BB4491;
 			remoteInfo = ViewModel;
 		};
-		F2DFC7E61FAF160B00BB4491 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F2DFC7951FAF12BF00BB4491;
-			remoteInfo = MVVMTemplate;
-		};
 		F2DFC7ED1FAF160B00BB4491 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
@@ -122,13 +226,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = F2DFC7FB1FAF162000BB4491;
 			remoteInfo = View;
-		};
-		F2DFC8081FAF162100BB4491 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F2DFC7951FAF12BF00BB4491;
-			remoteInfo = MVVMTemplate;
 		};
 		F2DFC80F1FAF162100BB4491 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -175,6 +272,138 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		F2B705761FB058600090A16F /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F2684A131FB4BDA200FFE424 /* CocoaLumberjack.framework in Copy Frameworks */,
+				F2684A141FB4BDA200FFE424 /* CocoaLumberjackSwift.framework in Copy Frameworks */,
+				F2684A151FB4BDA200FFE424 /* Eureka.framework in Copy Frameworks */,
+				F2684A161FB4BDA200FFE424 /* PluggableApplicationDelegate.framework in Copy Frameworks */,
+				F2684A171FB4BDA200FFE424 /* ReactiveCocoa.framework in Copy Frameworks */,
+				F2684A181FB4BDA200FFE424 /* ReactiveEureka.framework in Copy Frameworks */,
+				F2684A191FB4BDA200FFE424 /* ReactiveSwift.framework in Copy Frameworks */,
+				F2684A1A1FB4BDA200FFE424 /* Result.framework in Copy Frameworks */,
+				F2684A1B1FB4BDA200FFE424 /* Swinject.framework in Copy Frameworks */,
+				F2684A1C1FB4BDA200FFE424 /* SwinjectStoryboard.framework in Copy Frameworks */,
+				F26849CA1FB4BC4A00FFE424 /* Protobuf.framework in Copy Frameworks */,
+				F26849CB1FB4BC4A00FFE424 /* Firebase.framework in Copy Frameworks */,
+				F26849CC1FB4BC4A00FFE424 /* FirebaseAnalytics.framework in Copy Frameworks */,
+				F26849CD1FB4BC4A00FFE424 /* FirebaseCore.framework in Copy Frameworks */,
+				F26849CE1FB4BC4A00FFE424 /* FirebaseCoreDiagnostics.framework in Copy Frameworks */,
+				F26849CF1FB4BC4A00FFE424 /* FirebaseCrash.framework in Copy Frameworks */,
+				F26849D01FB4BC4A00FFE424 /* FirebaseInstanceID.framework in Copy Frameworks */,
+				F26849D11FB4BC4A00FFE424 /* FirebaseNanoPB.framework in Copy Frameworks */,
+				F26849D21FB4BC4A00FFE424 /* GoogleToolboxForMac.framework in Copy Frameworks */,
+				F26849D31FB4BC4A00FFE424 /* nanopb.framework in Copy Frameworks */,
+				F2B705771FB058830090A16F /* Nimble.framework in Copy Frameworks */,
+				F2B705781FB058830090A16F /* Quick.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B705791FB0588B0090A16F /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F2684A1D1FB4BE0B00FFE424 /* Helpers.framework in Copy Frameworks */,
+				F26849FF1FB4BD9800FFE424 /* Protobuf.framework in Copy Frameworks */,
+				F2684A001FB4BD9800FFE424 /* CocoaLumberjack.framework in Copy Frameworks */,
+				F2684A011FB4BD9800FFE424 /* CocoaLumberjackSwift.framework in Copy Frameworks */,
+				F2684A021FB4BD9800FFE424 /* Eureka.framework in Copy Frameworks */,
+				F2684A031FB4BD9800FFE424 /* Firebase.framework in Copy Frameworks */,
+				F2684A041FB4BD9800FFE424 /* FirebaseAnalytics.framework in Copy Frameworks */,
+				F2684A051FB4BD9800FFE424 /* FirebaseCore.framework in Copy Frameworks */,
+				F2684A061FB4BD9800FFE424 /* FirebaseCoreDiagnostics.framework in Copy Frameworks */,
+				F2684A071FB4BD9800FFE424 /* FirebaseCrash.framework in Copy Frameworks */,
+				F2684A081FB4BD9800FFE424 /* FirebaseInstanceID.framework in Copy Frameworks */,
+				F2684A091FB4BD9800FFE424 /* FirebaseNanoPB.framework in Copy Frameworks */,
+				F2684A0A1FB4BD9800FFE424 /* GoogleToolboxForMac.framework in Copy Frameworks */,
+				F2684A0B1FB4BD9800FFE424 /* nanopb.framework in Copy Frameworks */,
+				F2684A0C1FB4BD9800FFE424 /* PluggableApplicationDelegate.framework in Copy Frameworks */,
+				F2684A0D1FB4BD9800FFE424 /* ReactiveCocoa.framework in Copy Frameworks */,
+				F2684A0E1FB4BD9800FFE424 /* ReactiveEureka.framework in Copy Frameworks */,
+				F2684A0F1FB4BD9800FFE424 /* ReactiveSwift.framework in Copy Frameworks */,
+				F2684A101FB4BD9800FFE424 /* Result.framework in Copy Frameworks */,
+				F2684A111FB4BD9800FFE424 /* Swinject.framework in Copy Frameworks */,
+				F2684A121FB4BD9800FFE424 /* SwinjectStoryboard.framework in Copy Frameworks */,
+				F2B7057A1FB0589E0090A16F /* Nimble.framework in Copy Frameworks */,
+				F2B7057B1FB0589E0090A16F /* Quick.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B7057C1FB058A30090A16F /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F2684A1E1FB4BE2C00FFE424 /* Helpers.framework in Copy Frameworks */,
+				F26849EB1FB4BD8D00FFE424 /* Protobuf.framework in Copy Frameworks */,
+				F26849EC1FB4BD8D00FFE424 /* CocoaLumberjack.framework in Copy Frameworks */,
+				F26849ED1FB4BD8D00FFE424 /* CocoaLumberjackSwift.framework in Copy Frameworks */,
+				F26849EE1FB4BD8D00FFE424 /* Eureka.framework in Copy Frameworks */,
+				F26849EF1FB4BD8E00FFE424 /* Firebase.framework in Copy Frameworks */,
+				F26849F01FB4BD8E00FFE424 /* FirebaseAnalytics.framework in Copy Frameworks */,
+				F26849F11FB4BD8E00FFE424 /* FirebaseCore.framework in Copy Frameworks */,
+				F26849F21FB4BD8E00FFE424 /* FirebaseCoreDiagnostics.framework in Copy Frameworks */,
+				F26849F31FB4BD8E00FFE424 /* FirebaseCrash.framework in Copy Frameworks */,
+				F26849F41FB4BD8E00FFE424 /* FirebaseInstanceID.framework in Copy Frameworks */,
+				F26849F51FB4BD8E00FFE424 /* FirebaseNanoPB.framework in Copy Frameworks */,
+				F26849F61FB4BD8E00FFE424 /* GoogleToolboxForMac.framework in Copy Frameworks */,
+				F26849F71FB4BD8E00FFE424 /* nanopb.framework in Copy Frameworks */,
+				F26849F81FB4BD8E00FFE424 /* PluggableApplicationDelegate.framework in Copy Frameworks */,
+				F26849F91FB4BD8E00FFE424 /* ReactiveCocoa.framework in Copy Frameworks */,
+				F26849FA1FB4BD8E00FFE424 /* ReactiveEureka.framework in Copy Frameworks */,
+				F26849FB1FB4BD8E00FFE424 /* ReactiveSwift.framework in Copy Frameworks */,
+				F26849FC1FB4BD8E00FFE424 /* Result.framework in Copy Frameworks */,
+				F26849FD1FB4BD8E00FFE424 /* Swinject.framework in Copy Frameworks */,
+				F26849FE1FB4BD8E00FFE424 /* SwinjectStoryboard.framework in Copy Frameworks */,
+				F2B7057D1FB058B20090A16F /* Nimble.framework in Copy Frameworks */,
+				F2B7057E1FB058B20090A16F /* Quick.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B7057F1FB058B50090A16F /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F26849D71FB4BD5A00FFE424 /* Protobuf.framework in Copy Frameworks */,
+				F26849D81FB4BD5A00FFE424 /* CocoaLumberjack.framework in Copy Frameworks */,
+				F26849D91FB4BD5A00FFE424 /* CocoaLumberjackSwift.framework in Copy Frameworks */,
+				F26849DA1FB4BD5A00FFE424 /* Eureka.framework in Copy Frameworks */,
+				F26849DB1FB4BD5A00FFE424 /* Firebase.framework in Copy Frameworks */,
+				F26849DC1FB4BD5A00FFE424 /* FirebaseAnalytics.framework in Copy Frameworks */,
+				F26849DD1FB4BD5A00FFE424 /* FirebaseCore.framework in Copy Frameworks */,
+				F26849DE1FB4BD5A00FFE424 /* FirebaseCoreDiagnostics.framework in Copy Frameworks */,
+				F26849DF1FB4BD5A00FFE424 /* FirebaseCrash.framework in Copy Frameworks */,
+				F26849E01FB4BD5A00FFE424 /* FirebaseInstanceID.framework in Copy Frameworks */,
+				F26849E11FB4BD5A00FFE424 /* FirebaseNanoPB.framework in Copy Frameworks */,
+				F26849E21FB4BD5A00FFE424 /* GoogleToolboxForMac.framework in Copy Frameworks */,
+				F26849E31FB4BD5A00FFE424 /* nanopb.framework in Copy Frameworks */,
+				F26849E41FB4BD5A00FFE424 /* PluggableApplicationDelegate.framework in Copy Frameworks */,
+				F26849E51FB4BD5A00FFE424 /* ReactiveCocoa.framework in Copy Frameworks */,
+				F26849E61FB4BD5A00FFE424 /* ReactiveEureka.framework in Copy Frameworks */,
+				F26849E71FB4BD5A00FFE424 /* ReactiveSwift.framework in Copy Frameworks */,
+				F26849E81FB4BD5A00FFE424 /* Result.framework in Copy Frameworks */,
+				F26849E91FB4BD5A00FFE424 /* Swinject.framework in Copy Frameworks */,
+				F26849EA1FB4BD5A00FFE424 /* SwinjectStoryboard.framework in Copy Frameworks */,
+				F26849D61FB4BCE600FFE424 /* Helpers.framework in Copy Frameworks */,
+				F26849D41FB4BCD600FFE424 /* View.framework in Copy Frameworks */,
+				F2B705801FB058C20090A16F /* Nimble.framework in Copy Frameworks */,
+				F2B705811FB058C20090A16F /* Quick.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F2DFC7D21FAF15DB00BB4491 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -192,6 +421,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F2A520801FB04D9C00E8DCFB /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		F2A520811FB04D9C00E8DCFB /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		F2DFC7961FAF12BF00BB4491 /* MVVMTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DFC7991FAF12BF00BB4491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2DFC79B1FAF12BF00BB4491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -200,15 +431,15 @@
 		F2DFC7A51FAF12BF00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2DFC7B61FAF15DA00BB4491 /* Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DFC7BE1FAF15DB00BB4491 /* ModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2DFC7C51FAF15DB00BB4491 /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		F2DFC7C51FAF15DB00BB4491 /* ModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSpec.swift; sourceTree = "<group>"; };
 		F2DFC7C71FAF15DB00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2DFC7DA1FAF160A00BB4491 /* ViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DFC7E21FAF160A00BB4491 /* ViewModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2DFC7E91FAF160B00BB4491 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		F2DFC7E91FAF160B00BB4491 /* ViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelSpec.swift; sourceTree = "<group>"; };
 		F2DFC7EB1FAF160B00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2DFC7FC1FAF162000BB4491 /* View.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = View.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DFC8041FAF162100BB4491 /* ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2DFC80B1FAF162100BB4491 /* ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTests.swift; sourceTree = "<group>"; };
+		F2DFC80B1FAF162100BB4491 /* ViewSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSpec.swift; sourceTree = "<group>"; };
 		F2DFC80D1FAF162100BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2DFC8241FAF16CA00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2DFC8251FAF16CA00BB4491 /* View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
@@ -218,7 +449,7 @@
 		F2DFC82C1FAF16CA00BB4491 /* ViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
 		F2DFC8351FAF17CD00BB4491 /* Helpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Helpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DFC83D1FAF17CD00BB4491 /* HelpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelpersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2DFC8421FAF17CD00BB4491 /* HelpersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpersTests.swift; sourceTree = "<group>"; };
+		F2DFC8421FAF17CD00BB4491 /* HelpersSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpersSpec.swift; sourceTree = "<group>"; };
 		F2DFC8441FAF17CD00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2DFC84D1FAF17FA00BB4491 /* Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
 		F2DFC84E1FAF17FA00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -289,6 +520,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A520861FB04DB600E8DCFB /* Nimble.framework in Frameworks */,
+				F2A520871FB04DB600E8DCFB /* Quick.framework in Frameworks */,
 				F2DFC7BF1FAF15DB00BB4491 /* Model.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +539,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A520841FB04DAA00E8DCFB /* Nimble.framework in Frameworks */,
+				F2A520851FB04DAA00E8DCFB /* Quick.framework in Frameworks */,
 				F2DFC7E31FAF160A00BB4491 /* ViewModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +558,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A520821FB04D9C00E8DCFB /* Nimble.framework in Frameworks */,
+				F2A520831FB04D9C00E8DCFB /* Quick.framework in Frameworks */,
 				F2DFC8051FAF162100BB4491 /* View.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,7 +593,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B705741FB058580090A16F /* Nimble.framework in Frameworks */,
+				F2B705751FB058580090A16F /* Quick.framework in Frameworks */,
 				F2DFC83E1FAF17CD00BB4491 /* Helpers.framework in Frameworks */,
+				F26849B81FB4BC0800FFE424 /* Firebase.framework in Frameworks */,
+				F26849B91FB4BC0800FFE424 /* Protobuf.framework in Frameworks */,
+				F26849BA1FB4BC0800FFE424 /* FirebaseInstanceID.framework in Frameworks */,
+				F26849BB1FB4BC0800FFE424 /* CocoaLumberjack.framework in Frameworks */,
+				F26849BC1FB4BC0800FFE424 /* ReactiveEureka.framework in Frameworks */,
+				F26849BD1FB4BC0800FFE424 /* Result.framework in Frameworks */,
+				F26849BE1FB4BC0800FFE424 /* FirebaseCore.framework in Frameworks */,
+				F26849BF1FB4BC0800FFE424 /* nanopb.framework in Frameworks */,
+				F26849C01FB4BC0800FFE424 /* PluggableApplicationDelegate.framework in Frameworks */,
+				F26849C11FB4BC0800FFE424 /* ReactiveSwift.framework in Frameworks */,
+				F26849C21FB4BC0800FFE424 /* CocoaLumberjackSwift.framework in Frameworks */,
+				F26849C31FB4BC0800FFE424 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				F26849C41FB4BC0800FFE424 /* FirebaseAnalytics.framework in Frameworks */,
+				F26849C51FB4BC0800FFE424 /* FirebaseCrash.framework in Frameworks */,
+				F26849C61FB4BC0800FFE424 /* Eureka.framework in Frameworks */,
+				F26849C71FB4BC0800FFE424 /* ReactiveCocoa.framework in Frameworks */,
+				F26849C81FB4BC0800FFE424 /* FirebaseNanoPB.framework in Frameworks */,
+				F26849C91FB4BC0800FFE424 /* GoogleToolboxForMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,7 +729,7 @@
 		F2DFC7C41FAF15DB00BB4491 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F2DFC7C51FAF15DB00BB4491 /* ModelTests.swift */,
+				F2DFC7C51FAF15DB00BB4491 /* ModelSpec.swift */,
 				F2DFC7C71FAF15DB00BB4491 /* Info.plist */,
 			);
 			path = Model;
@@ -501,7 +758,7 @@
 		F2DFC7E81FAF160B00BB4491 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				F2DFC7E91FAF160B00BB4491 /* ViewModelTests.swift */,
+				F2DFC7E91FAF160B00BB4491 /* ViewModelSpec.swift */,
 				F2DFC7EB1FAF160B00BB4491 /* Info.plist */,
 			);
 			path = ViewModel;
@@ -510,7 +767,7 @@
 		F2DFC80A1FAF162100BB4491 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F2DFC80B1FAF162100BB4491 /* ViewTests.swift */,
+				F2DFC80B1FAF162100BB4491 /* ViewSpec.swift */,
 				F2DFC80D1FAF162100BB4491 /* Info.plist */,
 			);
 			path = View;
@@ -564,7 +821,7 @@
 		F2DFC8411FAF17CD00BB4491 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				F2DFC8421FAF17CD00BB4491 /* HelpersTests.swift */,
+				F2DFC8421FAF17CD00BB4491 /* HelpersSpec.swift */,
 				F2DFC8441FAF17CD00BB4491 /* Info.plist */,
 			);
 			path = Helpers;
@@ -582,6 +839,8 @@
 		F2DFC86D1FAF8E5B00BB4491 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F2A520801FB04D9C00E8DCFB /* Nimble.framework */,
+				F2A520811FB04D9C00E8DCFB /* Quick.framework */,
 				F2DFC8E11FAF94C000BB4491 /* Protobuf.framework */,
 				F2DFC8781FAF8EF900BB4491 /* CocoaLumberjack.framework */,
 				F2DFC87F1FAF8EF900BB4491 /* CocoaLumberjackSwift.framework */,
@@ -763,12 +1022,12 @@
 				F2DFC7BA1FAF15DB00BB4491 /* Sources */,
 				F2DFC7BB1FAF15DB00BB4491 /* Frameworks */,
 				F2DFC7BC1FAF15DB00BB4491 /* Resources */,
+				F2B705791FB0588B0090A16F /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				F2DFC7C11FAF15DB00BB4491 /* PBXTargetDependency */,
-				F2DFC7C31FAF15DB00BB4491 /* PBXTargetDependency */,
 			);
 			name = ModelTests;
 			productName = ModelTests;
@@ -801,12 +1060,12 @@
 				F2DFC7DE1FAF160A00BB4491 /* Sources */,
 				F2DFC7DF1FAF160A00BB4491 /* Frameworks */,
 				F2DFC7E01FAF160A00BB4491 /* Resources */,
+				F2B7057C1FB058A30090A16F /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				F2DFC7E51FAF160A00BB4491 /* PBXTargetDependency */,
-				F2DFC7E71FAF160B00BB4491 /* PBXTargetDependency */,
 			);
 			name = ViewModelTests;
 			productName = ViewModelTests;
@@ -839,12 +1098,12 @@
 				F2DFC8001FAF162100BB4491 /* Sources */,
 				F2DFC8011FAF162100BB4491 /* Frameworks */,
 				F2DFC8021FAF162100BB4491 /* Resources */,
+				F2B7057F1FB058B50090A16F /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				F2DFC8071FAF162100BB4491 /* PBXTargetDependency */,
-				F2DFC8091FAF162100BB4491 /* PBXTargetDependency */,
 			);
 			name = ViewTests;
 			productName = ViewTests;
@@ -876,6 +1135,7 @@
 				F2DFC8391FAF17CD00BB4491 /* Sources */,
 				F2DFC83A1FAF17CD00BB4491 /* Frameworks */,
 				F2DFC83B1FAF17CD00BB4491 /* Resources */,
+				F2B705761FB058600090A16F /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -908,7 +1168,6 @@
 					F2DFC7BD1FAF15DB00BB4491 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = F2DFC7951FAF12BF00BB4491;
 					};
 					F2DFC7D91FAF160A00BB4491 = {
 						CreatedOnToolsVersion = 9.0;
@@ -917,7 +1176,6 @@
 					F2DFC7E11FAF160A00BB4491 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = F2DFC7951FAF12BF00BB4491;
 					};
 					F2DFC7FB1FAF162000BB4491 = {
 						CreatedOnToolsVersion = 9.0;
@@ -926,7 +1184,6 @@
 					F2DFC8031FAF162100BB4491 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = F2DFC7951FAF12BF00BB4491;
 					};
 					F2DFC8341FAF17CD00BB4491 = {
 						CreatedOnToolsVersion = 9.0;
@@ -1110,7 +1367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2DFC7C61FAF15DB00BB4491 /* ModelTests.swift in Sources */,
+				F2DFC7C61FAF15DB00BB4491 /* ModelSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1127,7 +1384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2DFC7EA1FAF160B00BB4491 /* ViewModelTests.swift in Sources */,
+				F2DFC7EA1FAF160B00BB4491 /* ViewModelSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1143,7 +1400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2DFC80C1FAF162100BB4491 /* ViewTests.swift in Sources */,
+				F2DFC80C1FAF162100BB4491 /* ViewSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1164,7 +1421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2DFC8431FAF17CD00BB4491 /* HelpersTests.swift in Sources */,
+				F2DFC8431FAF17CD00BB4491 /* HelpersSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1176,11 +1433,6 @@
 			target = F2DFC7B51FAF15DA00BB4491 /* Model */;
 			targetProxy = F2DFC7C01FAF15DB00BB4491 /* PBXContainerItemProxy */;
 		};
-		F2DFC7C31FAF15DB00BB4491 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F2DFC7951FAF12BF00BB4491 /* MVVMTemplate */;
-			targetProxy = F2DFC7C21FAF15DB00BB4491 /* PBXContainerItemProxy */;
-		};
 		F2DFC7CA1FAF15DB00BB4491 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F2DFC7B51FAF15DA00BB4491 /* Model */;
@@ -1191,11 +1443,6 @@
 			target = F2DFC7D91FAF160A00BB4491 /* ViewModel */;
 			targetProxy = F2DFC7E41FAF160A00BB4491 /* PBXContainerItemProxy */;
 		};
-		F2DFC7E71FAF160B00BB4491 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F2DFC7951FAF12BF00BB4491 /* MVVMTemplate */;
-			targetProxy = F2DFC7E61FAF160B00BB4491 /* PBXContainerItemProxy */;
-		};
 		F2DFC7EE1FAF160B00BB4491 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F2DFC7D91FAF160A00BB4491 /* ViewModel */;
@@ -1205,11 +1452,6 @@
 			isa = PBXTargetDependency;
 			target = F2DFC7FB1FAF162000BB4491 /* View */;
 			targetProxy = F2DFC8061FAF162100BB4491 /* PBXContainerItemProxy */;
-		};
-		F2DFC8091FAF162100BB4491 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F2DFC7951FAF12BF00BB4491 /* MVVMTemplate */;
-			targetProxy = F2DFC8081FAF162100BB4491 /* PBXContainerItemProxy */;
 		};
 		F2DFC8101FAF162100BB4491 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1478,13 +1720,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS8W6559GP;
-				INFOPLIST_FILE = MVVMTemplate/Tests/Model/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Tests/Model/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ModelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMTemplate.app/MVVMTemplate";
 			};
 			name = Debug;
 		};
@@ -1494,13 +1739,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS8W6559GP;
-				INFOPLIST_FILE = MVVMTemplate/Tests/Model/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Tests/Model/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ModelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMTemplate.app/MVVMTemplate";
 			};
 			name = Release;
 		};
@@ -1560,13 +1808,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS8W6559GP;
-				INFOPLIST_FILE = MVVMTemplate/Tests/ViewModel/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Tests/ViewModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ViewModelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMTemplate.app/MVVMTemplate";
 			};
 			name = Debug;
 		};
@@ -1576,13 +1827,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS8W6559GP;
-				INFOPLIST_FILE = MVVMTemplate/Tests/ViewModel/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Tests/ViewModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ViewModelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMTemplate.app/MVVMTemplate";
 			};
 			name = Release;
 		};
@@ -1642,13 +1896,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS8W6559GP;
-				INFOPLIST_FILE = MVVMTemplate/Tests/View/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Tests/View/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMTemplate.app/MVVMTemplate";
 			};
 			name = Debug;
 		};
@@ -1658,13 +1915,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS8W6559GP;
-				INFOPLIST_FILE = MVVMTemplate/Tests/View/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Tests/View/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.ViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMTemplate.app/MVVMTemplate";
 			};
 			name = Release;
 		};
@@ -1734,7 +1994,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS8W6559GP;
-				INFOPLIST_FILE = MVVMTemplate/Tests/Helpers/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Tests/Helpers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.HelpersTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1749,7 +2013,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS8W6559GP;
-				INFOPLIST_FILE = MVVMTemplate/Tests/Helpers/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Tests/Helpers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitasw.HelpersTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

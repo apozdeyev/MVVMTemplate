@@ -6,7 +6,7 @@
 //  Copyright © 2017 VitaSw. All rights reserved.
 //
 
-//import Helpers
+import Helpers
 
 public final class Model: Modeling {
 	public init() {
@@ -14,8 +14,7 @@ public final class Model: Modeling {
 	}
 	
 	public func test() -> String {
-		// TODO:Revert
-		return "qwe"//LocalizedString("test", comment: "model test string")
+		return LocalizedString("test", comment: "model test string")
 	}
 }
 
